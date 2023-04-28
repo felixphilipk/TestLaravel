@@ -33,9 +33,3 @@ npx cypress open
 
 
 
-````
-npm install 
-
-````
-
-
