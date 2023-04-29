@@ -33,9 +33,9 @@ class AuthControllerTest extends TestCase
         $password = 'password123';
         // Create a mock request with valid data
         $requestData = [
-            'name' => 'jahon1',
-            'email' => 'jahon1@i.com',
-            'password' => 'pass1232'
+            'name' => $name,
+            'email' => $email,
+            'password' => $password
         ];
         $request = new Request($requestData);
 
